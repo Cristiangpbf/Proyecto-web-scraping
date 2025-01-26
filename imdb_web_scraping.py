@@ -11,8 +11,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 options = Options()
 
 # Ruta al ejecutable de ChromeDriver
-service = Service(
-    "D:/CRIS/Documentos/Israel/semestre_9/Tendencias_innovadoras_de_la_profesion/Proyecto-web-scraping/Proyecto-web-scraping/chromedriver-win64/chromedriver.exe")
+service = Service("./chromedriver-win64/chromedriver.exe")
 
 my_url = "https://www.imdb.com/search/title/?title_type=feature&release_date=1950-01-01,2025-12-31&sort=num_votes,desc"
 
